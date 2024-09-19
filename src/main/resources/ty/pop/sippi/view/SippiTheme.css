@@ -1,0 +1,63 @@
+/* General styles */
+.root {
+    -fx-padding: 10;
+    -fx-background-color: #74a12e;
+}
+
+.background {
+    -fx-background-color: #94bb6e;
+}
+
+/* TableView styles */
+.table-view {
+    -fx-background-color: white;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: white;
+}
+
+.table-view .cell {
+    /*-fx-padding: 5;*/
+    -fx-min-height: 40px;
+}
+
+.table-view .cell:hover {
+    -fx-background-color: #69bf64;
+}
+
+.table-view .cell:focused {
+    -fx-background-color: #74a12e;
+}
+
+/* Button styles */
+.button {
+    -fx-background-color: #69bf64;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #74a12e;
+}
+
+/* Label styles */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-font-family: Georgia;
+}
+
+.label.title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e5e59a;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.50), 4, 0.5, 0, 0);
+    -fx-font-family: "Helvetica";
+}
+
+/* ImageView styles */
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 10, 0.5, 0, 0);
+}
